@@ -1,0 +1,4 @@
+1. Install vegeta
+2. cp `.env.example .env`
+3. Start pg `npm run pg` or sequelize `npm run seq`
+4. Run benchmarks `echo "GET http://127.0.0.1:3000/" | vegeta attack -duration=5s -rate=25 | vegeta report`

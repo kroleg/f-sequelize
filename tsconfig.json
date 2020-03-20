@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true, /* need this one enabled to import json files */
+    "target": "ES2018", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+    "module": "commonjs", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "outDir": "./build", /* Redirect output structure to the directory. */
+    "rootDir": "./src",
+    "noImplicitThis": true, /* Raise error on 'this' expressions with an implied 'any' type. */
+    "strictBindCallApply": true,
+    "types": [ /* Type declaration files to be included in compilation. */
+      "node",
+      "jest"
+    ],
+    "lib": [
+      "es2019.array"
+    ],
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+  }
+}
