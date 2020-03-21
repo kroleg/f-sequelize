@@ -12,9 +12,9 @@ const sequelize = new Sequelize(postgresUrl, {
     // logging: (sql: string, timing?: number) => {
     //     console.log('[sequelize] (%sms) %s', timing, sql)
     // },
-    // pool: {
-    //     max: 200,
-    // },
+    pool: {
+        max: 100,
+    },
     benchmark: true,
     // common settings for all models
     // define: {
